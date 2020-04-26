@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1587272259 source:c:\users\ivan1\desktop\computación paralela y distribuida\prueba_diagnostico\main.c
+	<stdio.h>
+	<string.h>
+
+1587525246 source:c:\users\ivan1\desktop\computacion paralela y distribuida\prueba_diagnostico\main.c
+	<stdio.h>
+	<string.h>
+
