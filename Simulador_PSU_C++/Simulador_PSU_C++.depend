@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1587835414 source:c:\users\ivan1\desktop\simulador_psu_c++\main.cpp
+	<stdlib.h>
+	<iostream>
+	<fstream>
+	<ctime>
+

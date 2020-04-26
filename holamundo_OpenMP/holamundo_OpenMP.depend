@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1587924653 source:c:\users\ivan1\desktop\computacion paralela y distribuida\clase 01\holamundo_openmp\main.c
+	<stdio.h>
+	<stdlib.h>
+	<omp.h>
+
