@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1588114610 source:c:\users\ivan1\desktop\separador.cpp
+	<iostream>
+	<string>
+
+1588118476 source:c:\users\ivan1\desktop\secuencial_c++\main.cpp
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<string.h>
+	<iostream>
+	<string>
+
