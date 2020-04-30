@@ -9,7 +9,8 @@ using namespace std;
 int main(){
     ifstream lectura;
     ofstream escritura;
-    string texto,rut,p1,p2,p3,p4,p5;
+    string texto,rut,p1,p2,p3,p4,p5,p6;
+    float seis=6;
     lectura.open("ruts.csv",ios::in);//abre el archivo en modo lectura
     escritura.open("ruts_promedios.csv",ios::out);//el archivo se crea en la ubicación del programa
     if(lectura.fail() || escritura.fail()){
@@ -25,7 +26,8 @@ int main(){
         p3=texto.substr(17,3);
         p4=texto.substr(21,3);
         p5=texto.substr(25,3);
-        float promedio = (strtof((p1).c_str(),0) + strtof((p2).c_str(),0) + strtof((p3).c_str(),0) + strtof((p4).c_str(),0) + strtof((p5).c_str(),0))/5;
+        p6=texto.substr(29,3);
+        float promedio = (strtof((p1).c_str(),0) + strtof((p2).c_str(),0) + strtof((p3).c_str(),0) + strtof((p4).c_str(),0) + strtof((p5).c_str(),0) + strtof((p6).c_str(),0))/seis;
         //cout<<rut<<";"<<promedio<<"\n";
         escritura<<rut<<";"<<promedio<<"\n";
     }
