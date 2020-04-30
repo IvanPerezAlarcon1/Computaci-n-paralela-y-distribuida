@@ -25,20 +25,17 @@ ej: 14916641;600;590;712;625;479;599
 int main()
 {
   srand((unsigned int) time(0));//toma la hora actual del reloj y pasa como semilla
-  ofstream file_txt,file_csv;
-  file_txt.open("C:/Users/ivan1/Desktop/computacion paralela y distribuida/clase 01/ruts.txt");
-  file_csv.open("C:/Users/ivan1/Desktop/computacion paralela y distribuida/clase 01/ruts.csv");
+  ofstream file_csv;
+  file_csv.open("ruts.csv",ios::out);
   for(int i=14916641; i<=19932391;i++){
       int NEM= 475 + rand() %276;
       int RKN= 475 + rand() %276;
       int MAT= 475 + rand() %276;
       int LEN= 475 + rand() %276;
       int CIE= 475 + rand() %276;
-      file_txt<<i<<";"<<NEM<<";"<<RKN<<";"<<MAT<<";"<<LEN<<";"<<CIE<<";"<<"\n";
-      file_csv<<i<<";"<<NEM<<";"<<RKN<<";"<<MAT<<";"<<LEN<<";"<<CIE<<";"<<"\n";
+      int HIST= 475 + rand() %276;
+      file_csv<<i<<";"<<NEM<<";"<<RKN<<";"<<MAT<<";"<<LEN<<";"<<CIE<<";"<<HIST<<";"<<"\n";
   }
-
-  file_txt.close();
   file_csv.close();
   return 0;
 }
