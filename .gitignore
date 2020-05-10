@@ -1,3 +1,4 @@
 #excluye archivos .csv y txt
 *.csv
 *.txt
+*.zip
