@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1589845848 source:c:\users\ivan1\desktop\repositoriosgithub\punteros c y c++\matrices dinamicas\main.cpp
+	"iostream"
+	"stdio.h"
+	"string"
+	"stdlib.h"
+

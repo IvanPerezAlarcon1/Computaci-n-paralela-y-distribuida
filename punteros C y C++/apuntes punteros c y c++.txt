@@ -1,0 +1,22 @@
+- El tipo de dato del apuntador debe coincidir con el de la variable cuya posición en memoria apuntan. En el ejemplo 
+vemos que tanto variable como apuntador son enteros.
+- Siempre que queremos usar el apuntador debemos anteponer el asterisco (*) para indicar que usaremos el valor en
+la posición de memoria apuntada.
+- De no usar el asterisco el comportamiento sería impredecible. Estaremos haciendo uso de la dirección de 
+memoria más no del valor almacenado en ésta.
+- Después de usar un puntero, especialmente si trabajamos con arreglos o matrices, es MUY recomendable liberar
+la memoria utilizada con la función delete (tal como en el ejemplo)
+- Un puntero o apuntador puede ser de cualquier tipo de dato, inclusive los podemos usar con tipos complejos.
+
+PUNTEROS Y EL AMPERSAND
++ El ampersand es un operador de C++ y es comúnmente utilizado para los punteros. Este operador nos permite 
+obtener la dirección de memoria de una variable cualquiera y es justo esto (la dirección en memoria) lo 
+que utilizan los punteros para referenciar valores.
+
+APUNTADORES Y EL ASTERISCO
++ El asterisco es, por decirlo de alguna forma, el operador por excelencia de los punteros. SU utilidad radica 
+en que si el valor de dicho apuntador corresponde a una dirección de memoria, el asterisco nos permite resolverla 
+y acceder al valor almacenado allí. Viéndolo desde otro enfoque, un apuntador es únicamente una dirección de memoria 
+(un número) y el asterisco es el que hace la magia de obtener el valor referenciado por dicha dirección.
+
+
